@@ -14,7 +14,7 @@ export default function Header({heading,title,nav}) {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                            <Link className="nav-link active" aria-current="page" to="/your-task-app">Home</Link>
                             <Link className="nav-link" to="/your-task-app/about">About</Link>
                         </div>
                     </div>                  
